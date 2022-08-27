@@ -1,0 +1,23 @@
+{
+  "name": "interactive-rating-component",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-sass src/scss/main.scss src/css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cwasi/FEM-interactive-rating-component.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cwasi/FEM-interactive-rating-component/issues"
+  },
+  "homepage": "https://github.com/cwasi/FEM-interactive-rating-component#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
