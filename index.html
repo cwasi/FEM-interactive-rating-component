@@ -1,57 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="src/img/favicon-32x32.png"
-    />
-    <link rel="stylesheet" href="src/css/style.css" />
-    <title>Frontend Mentor | Interactive Rating Component</title>
-  </head>
-  <body>
-    <main>
-      <div class="component" id="rating">
-        <div class="component__img-box">
-          <img src="./src/img/icon-star.svg" alt="star icon" class="component__icon" />
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="src/img/favicon-32x32.png"
+      />
+      <link rel="stylesheet" href="src/css/style.css" />
+      <title>Frontend Mentor | Interactive Rating Component</title>
+    </head>
+    <body>
+      <main>
+        <div class="component" id="rating">
+          <div class="component__img-box">
+            <img src="./src/img/icon-star.svg" alt="star icon" class="component__icon" />
+          </div>
+          <h1 class="component__title">How did we do?</h1>
+          <p class="component__paragraph">
+            Please let us know how we did with your support request. All feedback
+            is appreciated to help us improve our offering!
+          </p>
+          <div class="component__rating">
+            <div class="component__rating__number" value="1">1</div>
+            <div class="component__rating__number" value="2">2</div>
+            <div class="component__rating__number" value="3">3</div>
+            <div class="component__rating__number" value="4">4</div>
+            <div class="component__rating__number" value="5">5</div>
+          </div>
+          <button class="component__btn" id="submit">submit</button>
         </div>
-        <h1 class="component__title">How did we do?</h1>
-        <p class="component__paragraph">
-          Please let us know how we did with your support request. All feedback
-          is appreciated to help us improve our offering!
-        </p>
-        <div class="component__rating">
-          <div class="component__rating__number" value="1">1</div>
-          <div class="component__rating__number" value="2">2</div>
-          <div class="component__rating__number" value="3">3</div>
-          <div class="component__rating__number" value="4">4</div>
-          <div class="component__rating__number" value="5">5</div>
+        <!--  -->
+        <div class="thank-you hide" id="thankYou">
+          <div class="thank-you__img-container">
+            <img src="src/img/illustration-thank-you.svg" alt="thank you photo" />
+          </div>
+          <p class="thank-you__ratings-text" id="rating-text">You selected 4 out of 5</p>
+          <p class="thank-you__text">Thank you!</p>
+          <p class="thank-you__paragraph">
+            We apprecitate you taking the time to give a rating. if you ever need
+            more support, don't hesitate to get in touch!
+          </p>
         </div>
-        <button class="component__btn" id="submit">submit</button>
-      </div>
-      <!--  -->
-      <div class="thank-you hide" id="thankYou">
-        <div class="thank-you__img-container">
-          <img src="src/img/illustration-thank-you.svg" alt="thank you photo" />
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="https://github.com/cwasi">cwasi</a>.
         </div>
-        <p class="thank-you__ratings-text" id="rating-text">You selected 4 out of 5</p>
-        <p class="thank-you__text">Thank you!</p>
-        <p class="thank-you__paragraph">
-          We apprecitate you taking the time to give a rating. if you ever need
-          more support, don't hesitate to get in touch!
-        </p>
-      </div>
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="https://github.com/cwasi">cwasi</a>.
-      </div>
-    </main>
-    <script src="src/index.js"></script>
-  </body>
-</html>
+      </main>
+      <script src="src/index.js"></script>
+    </body>
+  </html>
