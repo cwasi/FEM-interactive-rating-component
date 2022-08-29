@@ -21,8 +21,8 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [Source code](https://github.com/cwasi/FEM-stats-preview-card-component)
-- Live Site URL: [Live site](https://cwasi-preview-card.netlify.app/)
+- Solution URL: [Source code](https://github.com/cwasi/FEM-interactive-rating-component)
+- Live Site URL: [Live site](https://cwasi-rating-component.netlify.app/)
 
 ## My process
 
